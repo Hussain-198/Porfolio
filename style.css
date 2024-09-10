@@ -105,9 +105,16 @@ h2 {
     align-items: center;
     padding: 30px;
 }
+.contact-child-2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
 .about{
     margin-top: 200px;
     margin-bottom: 400px;
+    text-align: center;
 }
 .skill{
     margin-top: 100px;
@@ -123,6 +130,8 @@ h2 {
 }
 .about-child{
     padding: 50px;
+    color: white;
+    font-size: 25px;
 }
 .contact-container{
     font-size: 20px;
