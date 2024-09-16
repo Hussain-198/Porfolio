@@ -42,11 +42,8 @@ h3 {
     list-style: none;
     justify-content: flex-end;
 }
-
-
 .parent{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px;
 }
@@ -107,18 +104,19 @@ h2 {
 }
 .contact-child-2{
     display: flex;
-    justify-content: center;
+    align-items: center;
     padding: 30px;
-    
 }
 .about{
-    margin-top: 200px;
+    margin-top: 20%;
     margin-bottom: 400px;
     text-align: center;
 }
 .skill{
     margin-top: 100px;
     margin-bottom: 300px;
+    justify-content: center;
+    /* display: flex; */
 }
 .qual{
     margin-top: 100px;
@@ -129,7 +127,9 @@ h2 {
     padding: 100px;
 }
 .about-child{
-    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
     color: white;
     font-size: 25px;
 }
