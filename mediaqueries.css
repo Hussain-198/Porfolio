@@ -7,6 +7,9 @@
          justify-content: center;
          /* margin-left: 120px; */
      }
+     .profile{
+        height: 400px;
+     }
      .parent{
          flex-direction: column;
          align-items: center;
