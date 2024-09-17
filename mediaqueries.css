@@ -7,6 +7,10 @@
          justify-content: center;
          /* margin-left: 120px; */
      }
+     .contact-child-1{
+        display: flex;
+        flex-wrap: wrap;
+     }
      .profile{
         height: 400px;
      }
