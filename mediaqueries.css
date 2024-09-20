@@ -7,9 +7,11 @@
          justify-content: center;
          /* margin-left: 120px; */
      }
-     .contact-child-1{
+     .contact-child-1 a{
         display: flex;
         flex-wrap: wrap;
+        font-size: 5vw;
+
      }
      .profile{
         height: 400px;
@@ -31,6 +33,9 @@
          display: flex;
          flex-direction: column;
          justify-content: center;
+     }
+     .about-child{
+        justify-content: center;
      }
      /* .contact-container{
          margin-left: 120px;
