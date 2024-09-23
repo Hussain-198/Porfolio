@@ -133,7 +133,7 @@ h2 {
 .item-2{
     display: flex;
     justify-content: end;
-    /* margin-right: 100px; */
+    padding: 100px;
 }
 .footer a{
     color: white;
