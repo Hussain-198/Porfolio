@@ -2,27 +2,67 @@ body{
     scroll-behavior: smooth;
     background-image: url(./assets/images/img_background.jpg)
 }
-nav ul li a{
-    color: white;
+
+
+li {
+    list-style: none;
+}
+a {
     text-decoration: none;
 }
-ul{
-    gap: 1em;
-    font-size: 20px;
-}
-header{
+.header {
     background-color: black;
-    padding: 10px;
-    
-    width: 100%;
     position: fixed;
-    top: 0px;
+    width: 100%;
+    z-index: 1;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.hamburger {
+    display: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #FFFFFF;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    margin-left: 5rem;
+}
+.nav-link {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+}
+.nav-link:hover {
+    color: #cd0000;
+}
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: white;
+}
+
 /* .profile{
     display: flex;
     justify-content: end;
     padding-right: 30px;
 } */
+
+
 h1{
     color: white;
     font-family: sans-serif;
@@ -45,7 +85,8 @@ h3 {
 .parent{
     display: flex;
     justify-content: space-around;
-    margin: 50px;
+    /* margin: 50px; */
+    padding-top: 10%;
 }
 
 
@@ -142,9 +183,9 @@ h2 {
     font-size: 20px;
 }
 #Home{
-    scroll-margin-top: 250px;
+    scroll-margin-top: 170px;
 }
-#aboutme{
+#about{
     scroll-margin-top: 170px;
 }
 #skills{

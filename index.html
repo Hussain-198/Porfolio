@@ -13,22 +13,42 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="navigation-container">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#aboutme">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#Qualifications">Qualifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- header -->
+<header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo">ZH</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#Qualifications" class="nav-link">Qualifications</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+
     <main>
-        <div class="parent">
+        <section class="parent" id="home">
             <div class="child">
                 <h1>Zahid Hussain</h1>
                 <div class="web">
@@ -40,9 +60,9 @@
                 <img class="profile" id="Home" src="./assets/images/img_profilepic.png" height="500"
                     alt="zahid's_pic">
             </div>
-        </div>
-        <div class="about">
-            <h2 id="aboutme">About me</h2>
+        </section>
+        <section class="about" >
+            <h2 id="about">About me</h2>
             <div class="about-child">
                 <p>Hi my name is Zahid Hussain, passionate about knowing new things and try new things.</p>
             </div>
@@ -51,9 +71,9 @@
                 <p>I have 1 year of work experience, 3 months as Dell Field Engineer and 9 months as Customer Support
                     Executive.</p>
             </div>
-        </div>
-        <div class="text-center skill">
-            <h2 id="skills">Skills</h2>
+        </section>
+        <section class="text-center skill" id="skills">
+            <h2 >Skills</h2>
             <div class="container about-child">
                 <div class="skillbox">
                     <img src="./assets/images/ico_html.png" alt="html logo" height="170px">
@@ -68,8 +88,8 @@
                     <h3>Bootstrap</h3>
                 </div>
             </div>
-        </div>
-        <div class="qual text-center">
+        </section>
+        <section class="qual text-center">
             <h2 id="Qualifications">Qualifications:</h2>
             <div class="item-1 about-child">
                 <p>Completed up to 10th at Gill Adarsh Mat.Hr.Sec.School</p>
@@ -77,7 +97,7 @@
             <div class="item-2 about-child">
                 <p>Diploma in Computer Engineering at Central Polytechnic College</p>
             </div>
-        </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="contact-container">
@@ -97,5 +117,5 @@
     </footer>
     </div>
 </body>
-
+<script src="main.js"></script>
 </html>
