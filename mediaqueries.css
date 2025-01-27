@@ -67,10 +67,23 @@
          display: flex;
          flex-direction: column;
          justify-content: center;
+         
      }
+
+     .skillbox{
+        margin: 10px;
+     }
+
+     
+     .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
     
+    }
      .about-child{
         justify-content: center;
+        padding: 10px;
      }
      #Home{
         scroll-margin-top: 100px;
